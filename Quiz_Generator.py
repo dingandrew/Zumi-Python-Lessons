@@ -48,4 +48,12 @@ def quiz_one():
     display(Q1)
     display(Q2)
     display(Q3)
+    
+    
+def quiz_three():
+    Q1 = create_multipleChoice_widget('Can I use spaces and tabs to indent lines in one program?',['YES','NO'],'NO')
+    Q2 = create_multipleChoice_widget('What type of error will I get if i make an indentation error',['IndentationError: unexpected indent', 'TypeError: invalid datatypes'],'IndentationError: unexpected indent')
+
+    display(Q1)
+    display(Q2)
 
